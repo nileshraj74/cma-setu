@@ -7,10 +7,11 @@
     }
   ],
   "hosting": {
-    "public": "public",
-    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
-    "rewrites": [
-      { "source": "**", "destination": "/index.html" }
+     "site": "cma-setu-15111974",
+     "public": "public",
+     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+     "rewrites": [
+        { "source": "**", "destination": "/index.html" }
     ],
     "headers": [
       {
