@@ -1,6 +1,6 @@
 const { onRequest } = require('firebase-functions/v2/https');
 const { computeAll } = require('./engine');
-// deploy trigger
+
 // This function receives the raw form data (state) from the CMA Studio app,
 // runs the full calculation engine here on the server, and returns only the
 // computed results. The formulas themselves never leave this server, so they
